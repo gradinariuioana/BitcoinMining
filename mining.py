@@ -25,7 +25,7 @@ while nonce < 3100000000:       #3200000100 pentru cazul 2
         print('Valoare hash: ')
         print(codecs.encode(hash[::-1], 'hex'))
         break
-    if nonce < 3000000005:
+    if nonce < 3000000005:      #3200000005 pentru cazul 2
         print('Nonce: ')
         print(nonce)
         print('Valoare hash: ')
